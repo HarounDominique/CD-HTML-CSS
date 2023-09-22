@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ej03</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>FORMULARIO DE REGISTRO</h1><br>
+    <h4>DATOS PERSONALES</h4>
+    <form action="#" method="get">
+        <label for="nombre">Nombre: </label>
+        <input type="text" id="nombre" name="nombre" required><br><br>
+
+        <label for="apellidos">Apellidos: </label>
+        <input type="text" id="apellidos" name="apellidos" required><br><br>
+
+        <label for="fecha_nacimiento">Fecha de nacimiento: </label>
+        <input type="date" id="fecha_nacimiento" name="fecha_nacimiento" required><br><br>
+
+        <label for="telefono">Teléfono: </label>
+        <input type="tel" id="telefono" required><br><br>
+
+        <label for="nota_media">Nota media universitaria: </label>
+        <input type="number" min=0 max=10 step="0.01" id="nota_media" required><br><br>
+        
+        <label for="email">Correo electrónico: </label>
+        <input type="email" id="email" required><br><br>
+
+        <label for="contrasena">Contraseña: </label>
+        <input type="password" id="contrasena" required><br><br>
+
+        <label for="rep_contrasena">Repetir contraseña: </label>
+        <input type="password" id="rep_contrasena" required><br><br>
+
+        <h4>DIRECCIÓN</h4>
+
+        <label for="tipoVia">Tipo de Vía: </label>
+        <input type="text" id="tipoVia" name="tipoVia" required><br><br>
+
+        <label for="nombreVia">Nombre de la Vía: </label>
+        <input type="text" id="nombreVia" name="nombreVia" required><br><br>
+
+        <label for="codigoPostal">Código Postal: </label>
+        <input type="number" id="codigoPostal" name="codigoPostal" required><br><br>
+
+        <label for="ciudad">Ciudad: </label>
+        <input type="text" id="ciudad" name="ciudad" required><br><br>
+
+        <label for="provincia">Provincia: </label>
+        <input type="text" id="provincia" name="provincia" required><br><br>
+
+        <label for="pais">País: </label>
+        <select id="pais" name="pais">
+            <option value="seleccionar">Seleccionar un país</option>
+            <option value="andorra">Andorra</option>
+            <option value="espana">España</option>
+            <option value="francia">Francia</option>
+            <option value="portugal">Portugal</option>
+        </select><br><br>
+
+        <h4>TIPO DE CUENTA</h4>
+
+        <label for="cuenta">Cuenta gratuita: </label>
+        <input type="checkbox" id="gratis" value="Cuenta gratuita">
+        <span class="gratis_descripcion">Esta es una cuenta gratuita con características limitadas.</span><br><br>
+        <label for="cuenta">Cuenta básica: </label>
+        <input type="checkbox" id="basica" value="Cuenta básica">
+        <span class="basica_descripcion">La cuenta básica incluye acceso a las funciones principales y soporte.</span><br><br>
+        <label for="cuenta">Cuenta premium: </label>
+        <input type="checkbox" id="premium" value="Cuenta premium">
+        <span class="premium_descripcion">La cuenta premium ofrece características extra y soporte prioritario.</span><br><br>
+    
+        <h4>SOBRE MÍ</h4>
+        <p>Intereses personales, una breve descripción: </p><br>
+        <textarea name="intereses_personales" id="intereses" cols="30" rows="7"></textarea><br><br>
+
+        <label for="imagen">Cargar imagen de perfil: </label><br><br>
+        <input type="url" id="imagen" name="imagen"><br><br>
+
+        <img src="" alt=""><br><br>
+
+        <label for="cv">Subir currículum vitae: </label><br><br>
+        <input type="url" id="cv" name="cv"><br><br>
+
+        <input type="submit" value="Enviar"><br><br>
+
+    </form>
+</body>
+</html>

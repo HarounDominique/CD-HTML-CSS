@@ -1,0 +1,22 @@
+div{
+    display:flex;
+    justify-content: space-around;
+    margin: 10px;
+}
+.div-content{
+    width: 200px;
+    height: 70px;
+    border: 2px solid #000;
+}
+.round-div{
+    border-radius: 50%;
+}
+.content-1:hover{
+    cursor:crosshair
+}
+.content-2:hover{
+    cursor:wait
+}
+.content-3:hover{
+    cursor:none
+}

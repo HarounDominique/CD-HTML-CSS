@@ -1,0 +1,51 @@
+.table {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px; 
+    border: 3px solid #000; 
+    padding: 10px; 
+}
+
+/*
+.table > div {
+    padding: 20px;
+    border: 1px solid #000;
+}
+*/
+
+.column1{
+    width:50px; height: 50px; background-color: red; margin: auto; margin-bottom: 10px;
+}
+.column2{
+    width:50px; height: 50px; background-color: orangered;margin: auto; margin-bottom: 10px;
+}
+.column3{
+    width:50px; height: 50px; background-color: orange;margin: auto; margin-bottom: 10px;
+}
+.column4{
+    width:50px; height: 50px; background-color: yellow;margin: auto; margin-bottom: 10px;
+}
+.column5{
+    width:50px; height: 50px; background-color: yellowgreen;margin: auto; margin-bottom: 10px;
+}
+
+.container1{
+    border: 5px inset yellowgreen; margin:auto; padding:10px; display: flex;
+    flex-direction: column;
+}
+.container2{
+    border: 5px dotted red; margin:auto; padding:10px; display: flex;
+    flex-direction: column;
+}
+.container3{
+    border: 5px double orangered; margin:auto; padding:10px; display: flex;
+    flex-direction: column;
+}
+.container4{
+    border: 5px dashed orange; margin:auto; padding:10px; display: flex;
+    flex-direction: column;
+}
+.container5{
+    border: 5px groove yellow; margin:auto; padding:10px; display: flex;
+    flex-direction: column;
+}

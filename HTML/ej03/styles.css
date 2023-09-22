@@ -1,0 +1,23 @@
+.gratis_descripcion {
+    display: none; 
+}
+
+#gratis:hover + .gratis_descripcion {
+    display: inline; 
+}
+
+.basica_descripcion {
+    display: none; 
+}
+
+#basica:hover + .basica_descripcion {
+    display: inline;
+}
+
+.premium_descripcion {
+    display: none; 
+}
+
+#premium:hover + .premium_descripcion {
+    display: inline;
+}
